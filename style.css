@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+}
+
+header {
+    background: white;
+    width: 100%;
+    height: 70px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 25px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    display: inline-block;
+    color: #2F4F4F;
+    padding: 5px 0;
+    margin: 0 25px;
+    border: 3px solid transparent;
+}
+
+header nav ul li a:hover {
+    color: #00BFFF;
+    transition: 0.5s;
+}
+
+header nav ul li a.active {
+    color: #1E90FF;
+}
+
+.banner {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.banner .content {
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.as {
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+}
+.teks-berjalan {
+    color: black;
+    border-right: 2px solid #1E90FF;
+    font-size: 25px;
+    color: #1E90FF;
+}
