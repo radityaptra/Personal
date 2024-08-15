@@ -1,6 +1,7 @@
-var typing=new Typed(".teks-berjalan", {
-    strings: [ "Web Designer", "Freelancer", "Graphics Designer", "Web Developer"],
+const typed = new Typed('.teks-bergerak', {
+    strings: ['Front End','Back End','Full Stack'],
     typeSpeed: 100,
-    backSpeed: 40,
-    loop: true,
-});
+    backSpeed: 100,
+    backDelay: 100,
+    loop: true
+})
