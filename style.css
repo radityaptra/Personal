@@ -61,11 +61,9 @@ header nav ul li a.active {
     line-height: 45px;
 }
 
-.as {
-    color: white;
-    font-size: 20px;
-    padding: 5px;
-    font-family: sans-serif;
+.banner .content p {
+    font-size: 16px;
+    line-height: 23px;
 }
 
 span {
